@@ -12,7 +12,7 @@
     "scss": "node-sass -o css/ css/",
     "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "usemin": "usemin selinayindex.html -d dist --htmlmin -o dist/selinayindex.html",
+    "usemin": "usemin ./selinay/selinayindex.html -d dist --htmlmin -o dist/selinayindex.html",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
   },
